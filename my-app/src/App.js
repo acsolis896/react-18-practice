@@ -1,7 +1,13 @@
 import React from "react"
+import './App.css'
+import Header from "./components/Header"
+import Main from "./components/Main"
 
 export default function App() {
     return (
-        <h2>What's Up?</h2>
+        <>
+        <Header />
+        <Main />
+        </>
     )
 }
